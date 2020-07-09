@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-velcro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Rollup plugin to to resolve and read dependencies straight from the cloud using Velcro",
   "main": "lib/index.js",
   "files": [

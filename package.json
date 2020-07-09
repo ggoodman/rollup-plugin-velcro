@@ -1,0 +1,42 @@
+{
+  "name": "rollup-plugin-velcro",
+  "version": "0.0.0",
+  "description": "A Rollup plugin to to resolve and read dependencies straight from the cloud using Velcro",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggoodman/rollup-plugin-velcro.git"
+  },
+  "keywords": [],
+  "author": "Geoff Goodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggoodman/rollup-plugin-velcro/issues"
+  },
+  "homepage": "https://github.com/ggoodman/rollup-plugin-velcro#readme",
+  "devDependencies": {
+    "rollup": "^2.21.0"
+  },
+  "dependencies": {
+    "@velcro/common": "^0.45.1",
+    "@velcro/resolver": "^0.45.1",
+    "@velcro/strategy-cdn": "^0.45.1",
+    "@velcro/strategy-compound": "^0.45.1",
+    "@velcro/strategy-fs": "^0.45.1",
+    "fetch-ponyfill": "^6.1.1",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 100
+  }
+}

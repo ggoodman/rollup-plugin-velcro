@@ -29,8 +29,7 @@
     "@velcro/strategy-cdn": "^0.45.1",
     "@velcro/strategy-compound": "^0.45.1",
     "@velcro/strategy-fs": "^0.45.1",
-    "fetch-ponyfill": "^6.1.1",
-    "isomorphic-fetch": "^2.2.1"
+    "fetch-ponyfill": "^6.1.1"
   },
   "publishConfig": {
     "access": "public"
